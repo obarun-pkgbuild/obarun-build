@@ -2,9 +2,9 @@
 
 
 pkgname=obarun-build
-_commit=1ad9353e2c70379964499f20170dd236bab46d39 # tag 0.1.0
+_commit=bac9e28d84f65a4f0a49ef805aa6904096a2d2c7 # tag 0.1.0 follow change of 2.1.0 lxc version
 pkgver=0.1.0
-pkgrel=1
+pkgrel=2
 pkgdesc=" Script for building package on clean environment with lxc container"
 arch=(x86_64)
 url="https://github.com/Obarun/obarun-build"
