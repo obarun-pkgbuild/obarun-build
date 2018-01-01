@@ -2,7 +2,7 @@
 
 
 pkgname=obarun-build
-_commit=c704e401575a38702f1c7ef39db344e6b58e18f # tag 0.1.4 warm if bridge is not created
+_commit=5c704e401575a38702f1c7ef39db344e6b58e18f # tag 0.1.4 warm if bridge is not created
 pkgver=0.1.4
 pkgrel=2
 pkgdesc="Script for building package on clean environment with lxc container"
