@@ -2,14 +2,14 @@
 
 
 pkgname=obarun-build
-_commit=453811650fd546cbc1689c3d483f12a2d7a1ae64 # tag 0.1.3
-pkgver=0.1.2+4+g4538116
-pkgrel=1
+_commit=c704e401575a38702f1c7ef39db344e6b58e18f # tag 0.1.4 warm if bridge is not created
+pkgver=0.1.4
+pkgrel=2
 pkgdesc="Script for building package on clean environment with lxc container"
 arch=(x86_64)
 url="https://github.com/Obarun/obarun-build"
 license=(ISC)
-depends=('bash' 'lxc' 'iproute2' 'iptables' 'git' 'pacman' 'obarun-libs')
+depends=('bash' 'lxc' 'iproute2' 'iptables' 'git' 'pacman' 'obarun-libs' 'dnsmasq' 'cgmanager')
 optdepends=('cgmanager-s6serv: cgmanager service for s6')
 makedepends=('git')
 backup=('etc/obarun/build.conf')
