@@ -3,7 +3,7 @@
 
 pkgname=obarun-build
 #_commit=14161f60a676445b1161faeb0adb5d6882f8015a # tag 0.1.5 fix update of pacman database
-pkgver=0.1.8
+pkgver=0.1.9
 pkgrel=1
 pkgdesc="Script for building package on clean environment with lxc container"
 arch=(x86_64)
